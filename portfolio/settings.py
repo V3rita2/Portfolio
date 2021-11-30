@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^mdte+24k8kdv+)(zy9$l5g&4cg41$0&xnaandco5!^%-=yhm@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'frozen-shelf-70632.herokuapp.com']
 
 
 # Application definition
