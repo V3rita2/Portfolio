@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block content %} 
+{% load static %}
 <div class="content">
 <div id="intro-holder" style="display:flex; align-items:center; justify-content:center;">
     <div id="self-img-holder" class="end-0 top-0 w-50" style="max-width: 75%; height: auto;flex-basis: 40%;">
@@ -15,29 +16,30 @@
 
 <h2 class="text-center">Completed Projects</h2>
 <div class="card-group" style="margin: 5em">
-
-    <div class="card" style="margin: 1em;">
-        <div class="card-body">
-            <p class="card-text">Melodic Mercenary was my capstone project at General Assembly. It is a django based full CRUD application that, in future, I hope to expand to allow uploads of audio files.</p>
+    <div class="card-container">
+        <div class="card card-flip"">
+            <div class="card-body">
+                <p class="card-text">Melodic Mercenary was my capstone project at General Assembly. It is a django based full CRUD application that, in future, I hope to expand to allow uploads of audio files.</p>
+            </div>
+            <img class="card-img-bottom" src="https://i.imgur.com/m8daP5U.png" alt="Image of Melodic Mercenary main page.">
+            <a href="https://infinite-ridge-47014.herokuapp.com/home/" class="stretched-link"></a>
         </div>
-        <img class="card-img-bottom" src="https://i.imgur.com/m8daP5U.png" alt="Image of Melodic Mercenary main page.">
-        <a href="https://infinite-ridge-47014.herokuapp.com/home/" class="stretched-link"></a>
     </div>
-    <div class="card" style="margin: 1em;">
+    <div class="card card-flip">
         <div class="card-body">
             <p class="card-text">Gronk's Kwest is a short text-based adventure game running on javascript. It is currently down for updates and mantinence.</p>
         </div>
         <img class="card-img-bottom" src="https://i.imgur.com/AuyFnOG.png" alt="Image of Gronks Quest">
         <a href="https://v3rita2.github.io/Gronks-quest/" class="stretched-link"></a>
     </div>
-    <div class="card" style="margin: 1em;">
+    <div class="card card-flip">
         <div class="card-body">
             <p class="card-text">The Commons was a concept for a simple, react based social media site that I and three other programmers wrote.</p>
         </div>
         <img class="card-img-bottom" src="https://i.imgur.com/WSDFqyV.png" alt="Image of The Commons logo">
         <a href="http://project3-app-flex525.herokuapp.com/" class="stretched-link"></a>
     </div>
-    <div class="card" style="margin: 1em;">
+    <div class="card card-flip">
         <div class="card-body">
             <p class="card-text">The Nemesis project was an ambitious attempt at a novel concept for social media; not only would it act as regular social media site, but it would also function as a massively multiplayer online role playing game.it is no longer accesible, as the hosting was left to one ofthe other team members, and they seem to have allowed the site to lapse.</p>
         </div>
